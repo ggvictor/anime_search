@@ -1,0 +1,16 @@
+.star{
+    color:yellow;
+}
+.anime_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#111D2F;
+    padding:15px;
+    gap: 2px;
+    cursor: pointer;
+}
+.anime_card img{
+    height:300px;
+}

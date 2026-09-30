@@ -1,0 +1,9 @@
+.anime-gird{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    padding: 10px;
+    display: flex;
+    gap: 80px;
+}
