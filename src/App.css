@@ -4,6 +4,10 @@
 }
 .row{
     padding: 10px;
-    display: flex;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
     gap: 80px;
+}
+main{
+    display:flex;
 }

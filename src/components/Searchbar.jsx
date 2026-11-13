@@ -1,12 +1,21 @@
 import {FaSearch } from "react-icons/fa";
 import styles from "./Searchbar.module.css"
 
-const Searchbar = () => {
+const Searchbar = ({searchTerm, setSearchTerm, onSearch}) => {
   return (
-    <div className = "search-container">
-      <input type="text" name="search" id="search" placeholder='Search Anime' autoComplete="off" className = {styles.input}/>
-      <button className= {styles.icon}><FaSearch/></button>
-    </div>
+    <form className = "search-container" onSubmit = {(e) => {e.preventDefault(), onSearch()}}>
+      
+      <input type="text" 
+      name="search" 
+      id="search" 
+      placeholder='Search Anime' 
+      autoComplete="off" 
+      value = {searchTerm} 
+      onChange={(e) => setSearchTerm(e.target.value)}
+      className = {styles.input}/>
+
+      <button type = "submit" className= {styles.icon}><FaSearch/></button>
+    </form>
   )
 }
 

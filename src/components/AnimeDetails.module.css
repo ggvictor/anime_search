@@ -1,0 +1,50 @@
+.animeDetails{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:0 20px 20px 90px;
+    gap:10px;
+    padding:20px;
+    background-color:#111D2F;
+    border-radius:15px;
+}
+.animeDetailsNone{
+    display: none;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:0 20px 20px 90px;
+    gap:10px;
+    padding:20px;
+    background-color:#111D2F;
+    border-radius:15px;
+}
+.animeDetails img{
+    border-radius: 15px;
+}
+.animeDetails button{
+    cursor:pointer;
+    background-color: black;
+    border:none;
+    color:#3F86F7;
+    padding:6px;
+    border-radius:50%;
+    margin-right:350px;
+    margin-bottom:30px;
+    transition:.8s;
+}
+.animeDetails button:hover{
+    background-color: #3F86F7;
+    color: black;
+}
+.animeDetails img{
+    object-fit: cover;
+}
+.sinopse{
+    max-width:370px;
+}
+.star{
+    color:yellow;
+    margin-right: 9px;
+}
