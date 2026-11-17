@@ -7,7 +7,6 @@ const Navbar = ({onSearchClick}) => {
     <nav className = {styles.nav}>
       <img src={logo} alt="logo" className={styles.logo}/>
       <div className= {styles.icon}>
-        <span><FaMoon className = {styles.moon}/></span>
         <span onClick={onSearchClick}><FaSearch className = {styles.search}/></span>
       </div>
     </nav>

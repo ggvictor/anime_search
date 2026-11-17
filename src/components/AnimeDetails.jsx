@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaStar } from "react-icons/fa";
 import styles from './AnimeDetails.module.css'
