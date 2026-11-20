@@ -19,3 +19,9 @@
     object-fit: cover;
     border-radius:15px ;
 }
+@media(max-width:435px){
+    .anime_card{
+        width:150px;
+        margin-left: 10px;
+    }
+}

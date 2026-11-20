@@ -8,6 +8,7 @@
     padding:20px;
     background-color:#111D2F;
     border-radius:15px;
+    
 }
 .animeDetailsNone{
     display: none;
@@ -47,4 +48,22 @@
 .star{
     color:yellow;
     margin-right: 9px;
+}
+@media(max-width:435px){
+    .animeDetails{
+        max-width: 250px;
+    }
+    .animeDetails p{
+        font-size: 13px;
+        max-width: 200px;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+    .animeDetails img{
+        height: 200px;
+    }
+    .animeDetails button{
+        margin-right:200px;
+    }
+
 }

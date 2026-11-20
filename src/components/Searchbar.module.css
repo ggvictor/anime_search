@@ -10,7 +10,7 @@
     background-color:#111D2F;
 }
 .icon{
-    padding:12px 4px 18px 4px;
+    padding:8px 4px 18px 4px;
     border:none;
     outline:none;
     border-radius: 0px 15px 15px 0px;
@@ -21,4 +21,7 @@
 }
 .icon:hover{
     color:#3F86F7;
+}
+.iconSearch{
+    margin-top:4px;
 }

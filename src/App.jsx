@@ -73,7 +73,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className = "principal">
       <Navbar onSearchClick={() => setShowSearch(true)}/>
 
       {showSearch && <Search searchTerm = {searchTerm} setSearchTerm = {setSearchTerm} onSearch = {handleSearch}/>} {/*mostar o search se o showsearch for true*/}
@@ -92,7 +92,7 @@ function App() {
             </div>
           </section>
         )}
-        <section>
+        <section className = "position">
           {selectedAnime && (
             <AnimeDetails
               anime = {selectedAnime}
@@ -107,7 +107,7 @@ function App() {
         </section>
       </main>
  
-    </>
+    </div>
   )
 }
 

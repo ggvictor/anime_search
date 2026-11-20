@@ -14,7 +14,7 @@ const Searchbar = ({searchTerm, setSearchTerm, onSearch}) => {
       onChange={(e) => setSearchTerm(e.target.value)}
       className = {styles.input}/>
 
-      <button type = "submit" className= {styles.icon}><FaSearch/></button>
+      <button type = "submit" className= {styles.icon}><FaSearch className = {styles.iconSearch}/></button>
     </form>
   )
 }

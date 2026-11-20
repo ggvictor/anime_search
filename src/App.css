@@ -1,4 +1,4 @@
-.anime-gird{
+.anime-grid{
     display: flex;
     flex-direction: column;
 }
@@ -8,6 +8,34 @@
     grid-template-columns:1fr 1fr 1fr;
     gap: 80px;
 }
+.principal{
+      /* overflow-x: hidden */
+    }
 main{
     display:flex;
+    /* overflow-x:hidden; */
+   
+}
+@media(max-width:435px){
+    .row{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:20px;
+    }
+    
+    main{
+        position:absolute;
+        overflow-x: clip;
+        width: 100%;
+        min-width: 0;
+    }
+    .anime-grid {
+    flex: 0 0 auto;
+  }
+    .position{
+        position: relative;
+        top:0;
+        left: -400px;
+        flex-shrink: 0;
+    }
 }
