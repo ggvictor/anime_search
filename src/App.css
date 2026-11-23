@@ -16,7 +16,7 @@ main{
     /* overflow-x:hidden; */
    
 }
-@media(max-width:435px){
+@media(max-width:700px){
     .row{
         display:grid;
         grid-template-columns:1fr 1fr;
@@ -32,6 +32,26 @@ main{
     .anime-grid {
     flex: 0 0 auto;
   }
+    .position{
+        position: relative;
+        top:0;
+        left: -400px;
+        flex-shrink: 0;
+    }
+}
+@media(max-width:1279px){
+    .row{
+        gap:10px;
+    }
+    main{
+        position:absolute;
+        overflow-x: clip;
+        width: 100%;
+        min-width: 0;
+    }
+    .anime-grid {
+    flex: 0 0 auto;
+    }
     .position{
         position: relative;
         top:0;
