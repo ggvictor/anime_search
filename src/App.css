@@ -35,7 +35,8 @@ main{
     .position{
         position: relative;
         top:0;
-        left: -400px;
+        max-width:250px;
+        left: -500px;
         flex-shrink: 0;
     }
 }
@@ -55,6 +56,7 @@ main{
     .position{
         position: relative;
         top:0;
+        max-width:400px;
         left: -400px;
         flex-shrink: 0;
     }
