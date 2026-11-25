@@ -1,16 +1,57 @@
-# React + Vite
+# Anime Search 🎌
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Um buscador de animes desenvolvido com **React**, que permite pesquisar títulos e visualizar informações detalhadas sobre cada obra utilizando a API do AniList.
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔎 Pesquisa de animes pelo nome.
+- 🖼️ Exibição de capas dos animes encontrados.
+- ⭐ Visualização das avaliações.
+- 📖 Painel com informações detalhadas sobre cada anime.
+- 📝 Exibição de sinopse, gêneros, episódios e status.
+- 📱 Interface adaptável para diferentes tamanhos de tela.
 
-## React Compiler
+## 🛠️ Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Vite
+- AniList GraphQL API
 
-## Expanding the Oxlint configuration
+## 🌐 API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Os dados dos animes são obtidos através da [AniList GraphQL API](https://anilist.gitbook.io/anilist-apiv2-docs/).
+
+## 🚀 Como executar o projeto
+
+1. Clone este repositório:
+
+   ```bash
+   git clone URL_DO_REPOSITORIO
+   ```
+
+2. Entre na pasta do projeto:
+
+   ```bash
+   cd anime-search
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   ```
+
+## 📌 Objetivo
+
+Este projeto foi desenvolvido com o objetivo de praticar React, consumo de APIs, gerenciamento de estados com `useState` e componentização, além de aprimorar meus conhecimentos em desenvolvimento front-end.
+
+[Clique Aqui](https://anime-search-eta-pearl.vercel.app/)
+<img width="1364" height="542" alt="image" src="https://github.com/user-attachments/assets/be3a66ea-b398-4e88-b20c-62ba36e1aba8" />
